@@ -1,0 +1,112 @@
+/* Basic Page Styling */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f9; /* Light background */
+}
+
+/* Header Styling */
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #ff6f61; /* Warm coral color for header */
+    color: white;
+    width: 100%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header p {
+    margin: 5px 0 0;
+    font-size: 1.2em;
+}
+
+/* Pet List Section */
+#pet-list {
+    width: 90%;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+#pets-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+/* Pet Card Styling */
+.pet-card {
+    background-color: #ffffff; /* White background for card */
+    border: 2px solid #ffb6b9; /* Light coral border */
+    border-radius: 10px;
+    padding: 15px;
+    width: calc(50% - 20px);
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease;
+}
+
+.pet-card:hover {
+    transform: translateY(-5px); /* Subtle hover effect */
+}
+
+.pet-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Pet Card Text */
+.pet-card h3 {
+    color: #ff6f61;
+    margin: 10px 0;
+    font-size: 1.5em;
+}
+
+.pet-card p {
+    margin: 5px 0;
+    color: #333;
+}
+
+/* Button Styling */
+button {
+    background-color: #ff6f61;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 8px;
+    margin-top: 10px;
+    transition: background-color 0.2s ease;
+}
+
+button:hover {
+    background-color: #ff4c4c; /* Darker coral on hover */
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #ff6f61;
+    color: white;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    box-shadow: 0 -2px 6px rgba(0, 0, 0, 0.1);
+}
+
+footer p {
+    margin: 0;
+}
